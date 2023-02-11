@@ -4,11 +4,6 @@ import { Context as BlogContext } from '../context/blog-context'
 
 
 const CreateScreen = ({ navigation }) => {
-    // const {state} = useContext(BlogContext)
-    // const {id} = params
-    // const blogPost = state.find(
-    //     blogPost => blogPost.id === id
-    //     )
 
     const [title, setTitle] = useState("")
     const [content, setContent] = useState("")

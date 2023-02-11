@@ -3,9 +3,6 @@ import { View, Text, TouchableOpacity } from 'react-native'
 import { Foundation } from '@expo/vector-icons';
 import { Context as BlogContext } from '../context/blog-context'
 
-// const ShowScreen = ({navigation, route}) => {
-//     const {id} = route.params
-
 const ShowScreen = ({ navigation, route: { params } }) => {
     const { state } = useContext(BlogContext)
     const { id } = params
